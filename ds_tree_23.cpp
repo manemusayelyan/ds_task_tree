@@ -2,6 +2,11 @@
 #include <stack>
 using namespace std;
 
+/*
+* խնդիր N23
+* Իրական թվեր պարունակող բինար ծառի համար գտնել զրոյական արժեքով հանգույցների քանակը։
+*/
+
 typedef struct s_node
 {
 	int data;
