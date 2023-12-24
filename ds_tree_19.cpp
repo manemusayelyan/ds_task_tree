@@ -84,5 +84,6 @@ int main()
 	preorder_iterative(root);
 	cout << endl;
 	cout << endl << "Number of nodes with one child in given tree is " << preorder_recursive(root) << endl;
+	delete_tree(root);
 	return (0);
 }
