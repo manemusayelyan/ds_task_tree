@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
+/*
+* խնդիր N9
+* Գտնել տրված բինար ծառի տերևների քանակը։
+*/
 typedef struct s_node
 {
     int data;
