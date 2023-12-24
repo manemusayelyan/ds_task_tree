@@ -2,7 +2,10 @@
 #include <queue>
 #include <climits>
 using namespace std;
-
+/*
+* խնդիր N47
+* Որոշել տրված բինար ծառի մեծագույն տարրը պարունակող առաջին մակարդակի հանգույցների քանակը։
+*/
 typedef struct s_node
 {
     int val;
