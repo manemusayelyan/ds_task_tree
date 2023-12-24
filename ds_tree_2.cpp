@@ -77,5 +77,6 @@ int main()
 	preorder_iterative(root);
 	cout << "Preorder Traversal recursive" << endl;
 	preorder_recursive(root);
+	delete_tree(root);
 	return (0);
 }
