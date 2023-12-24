@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
+/*
+* խնդիր N8
+* Գտնել տրված բինար ծառի գագաթների քանակը։
+*/
 typedef struct s_node
 {
     int data;
