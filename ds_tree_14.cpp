@@ -14,6 +14,16 @@ typedef struct s_node
 	s_node(int data) : data(data), left(nullptr), right(nullptr) {}
 } t_node;
 
+void delete_tree(t_node* root)
+{
+    if (root == NULL)
+        return;
+
+    delete_tree(root->left);
+    delete_tree(root->right);
+    delete root;
+}
+
 void node_count_on_lvls(t_node* root)
 {
 	t_node* tmp = root;
