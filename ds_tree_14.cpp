@@ -66,5 +66,6 @@ int main()
 	root->left->right = new s_node(5);
 
 	node_count_on_lvls(root);
+	delete_tree(root);
 	return 0;
 }
