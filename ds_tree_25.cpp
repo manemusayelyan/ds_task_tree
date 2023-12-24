@@ -22,6 +22,15 @@ t_node* create_new_node(int data)
 	tmp->left = tmp->right = NULL;
 	return (tmp);
 }
+void delete_tree(t_node* root)
+{
+    if (root == NULL)
+        return;
+
+    delete_tree(root->left);
+    delete_tree(root->right);
+    delete root;
+}
 
 int preorder_iterative_find_min(t_node* root)
 {
