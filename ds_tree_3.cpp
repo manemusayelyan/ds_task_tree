@@ -85,5 +85,6 @@ int main()
     // Recursive
     cout << "Recursive postorder traversal of binary tree" << endl;
     print_postorder_recursive(root);
+    delete_tree(root);
     return (0);
 }
