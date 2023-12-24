@@ -14,6 +14,16 @@ typedef struct s_node
     s_node(int x) : val(x), left(nullptr), right(nullptr) {}
 } t_node;
 
+void delete_tree(t_node* root)
+{
+    if (root == NULL)
+        return;
+
+    delete_tree(root->left);
+    delete_tree(root->right);
+    delete root;
+}
+
 int find_level_of_max(t_node* root) {
     if (root == nullptr)
         return 0;
