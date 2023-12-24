@@ -128,6 +128,6 @@ int main()
 	print_tree_levelorder(root);
 	cout << "Changed all the values of nodes to their level number" << endl;
 	print_levels_of_nodes(root);
-
+	delete_tree(root);
 	return (0);
 }
