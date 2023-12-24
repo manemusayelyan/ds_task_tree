@@ -84,5 +84,6 @@ int main()
 	preorder_iterative(root);
 	cout << endl;
 	cout << endl << preorder_recursive(root) << " zero value nodes in given tree" << endl;
+	delete_tree(root);
 	return (0);
 }
