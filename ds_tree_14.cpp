@@ -2,6 +2,10 @@
 #include <queue>
 using namespace std;
 
+/*
+* խնդիր N14
+* Տպել տրված բինար ծառի յուրաքանչյուր մակարդակում պարունակվող հանգույցների քանակը։
+*/
 typedef struct s_node
 {
 	int data;
