@@ -21,6 +21,16 @@ t_node* create_new_node(int data)
     return (tmp);
 }
 
+void delete_tree(t_node* root)
+{
+    if (root == NULL)
+        return;
+
+    delete_tree(root->left);
+    delete_tree(root->right);
+    delete root;
+}
+
 void print_inorder_iterative(t_node* root)
 {
     stack<t_node*> st;
@@ -69,5 +79,6 @@ int main()
     // Recursive
     cout << "Recursive inorder traversal of binary tree" << endl;
     print_inorder_recursive(root);
+    delete_tree(root);
     return (0);
 }
