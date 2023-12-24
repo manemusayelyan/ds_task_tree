@@ -113,8 +113,6 @@ int main()
 	// Non recursive
 	cout << "Printing tree in leveorder" << endl;
 	print_min_lvls(root, preorder_iterative_find_min(root));
-
-	// Recursive
-
+	delete_tree(root);
 	return (0);
 }
