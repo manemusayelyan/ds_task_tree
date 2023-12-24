@@ -74,5 +74,6 @@ int main()
 
     cout << "Number of leaves in the binary tree: (Recursive) " << count_leaves_recursive(root) << endl;
     cout << "Number of leaves in the binary tree: (Iterative) " << count_leaves_iterative(root) << endl;
+    delete_tree(root);
     return 0;
 }
