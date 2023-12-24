@@ -101,5 +101,6 @@ int main()
 	cout << endl;
 	// Recursive
 	cout << "Height = " << tree_height_recursive(root);
+	delete_tree(root);
 	return (0);
 }
