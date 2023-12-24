@@ -107,6 +107,6 @@ int main() {
     }
     else
         cout << "0\n" << endl;
-
+    delete_tree(root);
     return 0;
 }
