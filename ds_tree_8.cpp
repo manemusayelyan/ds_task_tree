@@ -70,5 +70,6 @@ int main()
 
     cout << "Number of vertices in the binary tree (Recursive): " << count_vertices_recursive(root) << endl;
     cout << "Number of vertices in the binary tree (Iterative): " << count_vertices_iterative(root) << endl;
+    delete_tree(root);
     return 0;
 }
