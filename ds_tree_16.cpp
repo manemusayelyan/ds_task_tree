@@ -132,7 +132,6 @@ int main()
 	cout << "Printing tree in leveorder" << endl;
 	print_tree_levelorder(root);
 	print_lvls_with_max_num_of_nodes(root);
-	// Recursive
-
+	delete_tree(root);
 	return (0);
 }
