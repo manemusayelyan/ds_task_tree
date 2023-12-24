@@ -102,5 +102,6 @@ int main()
 	cout << "Binary tree levelorder traversal" << endl;
 	print_tree_levelorder(root);
 	cout << "Sum of nodes till third level is: " << sum_of_nodes(root, 3);
+	delete_tree(root);
 	return (0);
 }
