@@ -23,6 +23,16 @@ t_node* create_new_node(int data)
 	return (tmp);
 }
 
+void delete_tree(t_node* root)
+{
+    if (root == NULL)
+        return;
+
+    delete_tree(root->left);
+    delete_tree(root->right);
+    delete root;
+}
+
 void preorder_iterative(t_node* root)
 {
 	if (root == NULL)
